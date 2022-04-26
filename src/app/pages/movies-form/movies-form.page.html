@@ -1,0 +1,49 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <header class="header">
+      <h3 class="text-header-title">
+        Avalie o Filme
+      </h3>
+      <p class="header-small-text">
+        Avalie o filme, com uma nota de 01 a 10.
+      </p>
+    </header>
+    <main class="content-main">
+      <ion-item class="content-input-note">
+        <ion-label position="stacked">Nota</ion-label>
+        <ion-select
+        name="note"
+        id="note"
+        >
+          <ion-select-option value="1">01</ion-select-option>
+          <ion-select-option value="2">02</ion-select-option>
+          <ion-select-option value="3">03</ion-select-option>
+          <ion-select-option value="4">04</ion-select-option>
+          <ion-select-option value="5">05</ion-select-option>
+          <ion-select-option value="6">06</ion-select-option>
+          <ion-select-option value="7">07</ion-select-option>
+          <ion-select-option value="8">08</ion-select-option>
+          <ion-select-option value="9">09</ion-select-option>
+          <ion-select-option value="10">10</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Nome Completo</ion-label>
+        <ion-input
+        name="name"
+        id="name"
+        type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Email</ion-label>
+        <ion-input
+        name="email"
+        id="email"
+        type="email"></ion-input>
+      </ion-item>
+      <div class="button-content-confirm">
+        <ion-button expand="full" color="tertiary">Enviar</ion-button>
+      </div>
+    </main>
+  </div>
+</ion-content>

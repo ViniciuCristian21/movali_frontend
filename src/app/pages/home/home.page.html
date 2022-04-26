@@ -1,0 +1,49 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <header class="header">
+      <img src="#" alt="Image logo" class="header-image" />
+      <div class="searchbar">
+        <ion-searchbar></ion-searchbar>
+      </div>
+      <nav class="header-menu-items">
+        <a href="#" class="header-items">Inicio</a>
+        <a href="#" class="header-items">Filmes</a>
+        <a href="#" class="header-items">Series</a>
+        <a href="#" class="header-items">Categorias</a>
+      </nav>
+    </header>
+
+    <main class="content-main">
+      <div class="text-content-main">
+        <h2 class="title-content-main">Filmes e Series</h2>
+      </div>
+      <div class="items-content-main">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2">
+              <ion-card class="items-content-card">
+                <ion-card-header>
+                  <ion-card-subtitle class="launched-in-text">Lançado em: 04/2022</ion-card-subtitle>
+                  <ion-card-title class="content-card-title">Homem Aranha 1</ion-card-title>
+                </ion-card-header>
+
+                <ion-card-content class="content-card-text">
+                  Em Homem-Aranha: Sem Volta para Casa, Peter Parker (Tom
+                  Holland) precisará lidar com as consequências da sua
+                  identidade como o herói mais querido do mundo após ter sido
+                  revelada pela reportagem do Clarim Diário, com uma gravação
+                  feita por Mysterio
+                </ion-card-content>
+                <ion-button expand="full" color="tertiary" [routerLink]="['/movies-form', '55555x1112']" >Avaliar</ion-button>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </main>
+
+    <footer class="footer-content">
+      <a class="text-footer-content">M O V A L I</a>
+    </footer>
+  </div>
+</ion-content>

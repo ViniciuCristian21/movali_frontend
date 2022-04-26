@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.container {
+  font-size: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+.searchbar {
+  ion-searchbar {
+    --box-shadow: none;
+    border: 1px #000 solid;
+    width: 150%;
+  }
+}
+.header-menu-items {
+  display: flex;
+  gap: 32px;
+}
+.header-items {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  color: #000;
+}
+.items-content-main {
+  margin: 1rem 2rem;
+}
+.content-main {
+  border-top: 0.2px solid #000;
+  margin-bottom: 48px;
+}
+.text-content-main {
+  margin: 1rem 2rem;
+}
+.title-content-main {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+}
+.items-content-card {
+  margin: 0.5rem;
+}
+.launched-in-text {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.content-card-title {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.content-card-text {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.footer-content {
+ padding: 32px;
+}
+.text-footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// font-family: 'Poppins', sans-serif;
