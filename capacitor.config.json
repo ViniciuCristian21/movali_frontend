@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "movali_frontend",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,7 @@
+{
+  "name": "movali_frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
