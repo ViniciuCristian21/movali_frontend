@@ -14,6 +14,7 @@
         <ion-select
         name="note"
         id="note"
+        [(ngModel)]="note"
         >
           <ion-select-option value="1">01</ion-select-option>
           <ion-select-option value="2">02</ion-select-option>
@@ -32,17 +33,19 @@
         <ion-input
         name="name"
         id="name"
-        type="text"></ion-input>
+        type="text"
+        [(ngModel)]="name"></ion-input>
       </ion-item>
       <ion-item>
         <ion-label position="stacked">Email</ion-label>
         <ion-input
         name="email"
         id="email"
-        type="email"></ion-input>
+        type="email"
+        [(ngModel)]="email"></ion-input>
       </ion-item>
       <div class="button-content-confirm">
-        <ion-button expand="full" color="tertiary">Enviar</ion-button>
+        <ion-button expand="full" color="tertiary" (click)="onSubmit()">Enviar</ion-button>
       </div>
     </main>
   </div>
