@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+      {
+          "src": "./www/index.html",
+          "use": "@vercel/node"
+      }
+  ],
+  "routes": [
+      {
+          "src": "www/assets(.*)",
+          "dest": "/www"
+      }
+  ]
+}
