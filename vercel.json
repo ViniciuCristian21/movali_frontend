@@ -8,7 +8,7 @@
   ],
   "routes": [
       {
-          "src": "www/assets(.*)",
+          "src": "www/(.*)",
           "dest": "/www"
       }
   ]
